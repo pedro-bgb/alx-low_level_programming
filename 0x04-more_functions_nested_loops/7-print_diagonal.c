@@ -1,44 +1,17 @@
-#include "main.h"
+On branch master
+Your branch is up to date with 'origin/master'.
 
-/**
- * print_diagonal - draws a diagonal line on the terminal
- * @n: number of times the character \ should be printed
- */
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../0x03-debugging/2-largest_number.c
+	modified:   ../0x03-debugging/2-main.c
+	modified:   7-print_diagonal.c
 
-void print_diagonal(int n)
-{
-	if (n <= 0)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../0x03-debugging/2-main
+	../101-print_comb4.c
+	../RADME.md
 
-	{
-	_putchar('\n');
-
-	} else
-
-	{
-
-		int i, j;
-
-		for (i = 0; i < n; i++)
-	{
-	for (j = 0; j < n; j++)
-
-	{
-				if (j == i)
-
-				_putchar('\\');
-
-			else if (j < i)
-
-				_putchar(' ');
-
-			}
-
-			_putchar('\n');
-
-		}
-
-	}
-
-}
-
-
+no changes added to commit (use "git add" and/or "git commit -a")
