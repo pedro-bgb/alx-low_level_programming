@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main- main that multiplies two numbers
+ * main - main that multiplies two numbers
  * @argv: argument
  * @argc: argument
  *
- * return: always 0
+ * Return: always 0
  */
 
 int main(int argc, char *argv[])
+
 {
 
 	int a, b;
