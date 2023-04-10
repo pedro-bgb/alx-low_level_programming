@@ -7,7 +7,7 @@
  * @argv: array pointer
  *
  * Return: Always 0
- * */
+ */
 
 int main(int __attribute__((unused)) argc, char *argv[])
 {
