@@ -2,15 +2,16 @@
 #include <stdlib.h>
 
 /**
- * main - main that adds positive numbers
+ * main- main that adds positive numbers
  * @argc: argument count
- * @arbv: arguments
+ * @argv: arguments
  *
- * return: always 0
+ * Return: always 0
  */
 
 int main(int argc, char *argv[])
 {
+
 	int i, n, sum = 0;
 	char *flag;
 
